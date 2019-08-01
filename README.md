@@ -1,4 +1,4 @@
-# CPP Select
+# Select Syscall
 ## Simple example of `select` syscall
 
 Example from https://stepik.org/lesson/26311/step/1?unit=9024
