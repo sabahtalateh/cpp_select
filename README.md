@@ -15,3 +15,8 @@ I'm developing on MacOS so for other OS's commands might be different
 `cat ex > f1.fifo`
 
 Using `select` the process is not blocking on one of pipes but on select that is responsible to notify the process when there will be data to read
+
+The data will be displayed in the terminal.. Kind of magic.. I know..
+
+
+![](https://pbs.twimg.com/media/D9Mt-wCXYAAqMBK.jpg)
