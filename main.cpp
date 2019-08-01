@@ -28,10 +28,13 @@ int main() {
     fd_set read_set;
 
     while (true) {
+        // Reset watch list
         FD_ZERO(&read_set);
+        // Add file descriptors to watch-list
         FD_SET(f1, &read_set);
         FD_SET(f2, &read_set);
 
+        // Block on watch-list instead of concrete descriptor
         int result = select(f2 + 1, &read_set, NULL, NULL, NULL);
 
         printf("RESULT IS %d\n", result);
